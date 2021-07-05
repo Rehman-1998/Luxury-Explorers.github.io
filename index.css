@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f9f9;
+}
+.full-body {
+  margin: 0px;
+  border: 1px solid #6f69693b;
+}
+
+.break-line {
+  height: 3px !important;
+  background-color: #cdb772;
+  opacity: unset;
+  margin: 0px;
+  width: 100%;
+}
+.footer-break-line {
+  height: 3px !important;
+  background-color: #cdb772;
+  opacity: unset;
+  margin: 0px;
+  width: 90%;
+}
+.main-image {
+  width: 100%;
+  height: auto;
+}
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+.title-desc {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #4c4c4c;
+}
+#desc-p {
+  margin-top: -10px;
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #4c4c4c;
+}
+
+/************ Card CSS **********/
+.card {
+  border: none;
+  box-shadow: 3px 3px 6px 0 #bdb8b870;
+  margin-right: 20px;
+}
+.card-body {
+  background-color: #f3f3f3;
+}
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #4c4c4c;
+  font-weight: 100;
+}
+
+.button {
+  background-color: #e0c46c;
+  border: none;
+  color: #4c4c4c;
+  padding: 5px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+}
+@media screen and (max-width: 480px) {
+  .card {
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .first-card {
+    margin-top: 0px !important;
+  }
+}
+.footer-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: black;
+}
+.text-middle-line {
+  color: gray;
+}
+a {
+  color: #888484;
+  text-decoration: underline;
+}
+#mail-question {
+  font-family: "Poppins", sans-serif;
+  color: #888484;
+  font-weight: 600;
+}
+#unsubscribe {
+  font-family: "Poppins", sans-serif;
+  color: #888484;
+  font-weight: 600;
+  margin-top: -10px;
+}
